@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Fundo circular com gradiente azul -->
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" style="stop-color:#2d6fe0"/>
+      <stop offset="100%" style="stop-color:#0a1628"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <!-- Anel interno -->
+  <circle cx="100" cy="100" r="82" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="1.5"/>
+
+  <!-- Chama -->
+  <g transform="translate(100,52)">
+    <!-- Chama central -->
+    <path d="M0,-18 C4,-10 10,-4 8,4 C6,12 0,16 0,16 C0,16 -6,12 -8,4 C-10,-4 -4,-10 0,-18Z" fill="white" opacity="0.95"/>
+    <!-- Chama pequena esquerda -->
+    <path d="M-6,-6 C-8,-2 -6,2 -8,6 C-8,6 -12,2 -10,-4 C-9,-7 -7,-8 -6,-6Z" fill="white" opacity="0.6"/>
+    <!-- Chama pequena direita -->
+    <path d="M6,-6 C8,-2 6,2 8,6 C8,6 12,2 10,-4 C9,-7 7,-8 6,-6Z" fill="white" opacity="0.6"/>
+  </g>
+
+  <!-- SHEKINAH -->
+  <text x="100" y="102" font-family="Arial Black, Arial" font-weight="900" font-size="22" fill="white" text-anchor="middle" letter-spacing="1">SHEKINAH</text>
+  <!-- Um projeto de Deus -->
+  <text x="100" y="116" font-family="Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.70)" text-anchor="middle" letter-spacing="1.5">UM PROJETO DE DEUS</text>
+  <!-- IAD -->
+  <text x="100" y="140" font-family="Arial Black, Arial" font-weight="900" font-size="24" fill="white" text-anchor="middle" letter-spacing="2">IAD</text>
+</svg>
