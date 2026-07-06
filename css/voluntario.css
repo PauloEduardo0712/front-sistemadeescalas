@@ -1,0 +1,91 @@
+/* =============================================
+   VOLUNTARIO.CSS - Painel do Voluntario
+   ============================================= */
+
+.vol-profile-card {
+  background: linear-gradient(135deg, var(--azul-escuro), var(--azul-principal));
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  color: var(--branco);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.vol-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--chama), var(--chama-claro));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--branco);
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.vol-info h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.vol-info p { font-size: 13px; opacity: 0.82; }
+
+.escala-tipo-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 11px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  background: var(--surface-muted);
+  color: var(--azul-claro);
+}
+
+.status-ok   { color: #16a34a; font-weight: 700; font-size: 12px; }
+.status-warn { color: #b45309; font-weight: 700; font-size: 12px; }
+.status-err  { color: #dc2626; font-weight: 700; font-size: 12px; }
+
+.conflict-card {
+  background: var(--conflict-bg);
+  border: 1.5px solid var(--conflict-border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  margin-bottom: 14px;
+}
+
+.conflict-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.conflict-card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  color: #dc2626;
+}
+
+.conflict-meta {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.conflict-meta span { color: var(--text-primary); }
+.conflict-meta strong { color: var(--azul-principal); }
